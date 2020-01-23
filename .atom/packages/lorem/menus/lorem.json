@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate Lorem",
+        "command": "lorem:catch-command"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Lorem",
+          "submenu": [
+            {
+              "label": "Open Settings",
+              "command": "lorem:open-config"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

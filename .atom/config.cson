@@ -1,0 +1,19 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "github"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+    uriHandlerRegistration: "never"
+  editor:
+    fontSize: 15
+  "exception-reporting":
+    userId: "9958e751-68f7-4e5d-87c8-bf60afe6f057"
+  "linter-ui-default":
+    panelHeight: 300
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0

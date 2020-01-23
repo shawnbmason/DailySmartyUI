@@ -1,0 +1,43 @@
+body {
+	background-image: url(https://static1.squarespace.com/static/56d4a125e707eb7a02e4055f/56d4ac11e32140fc7fce60c7/56d4ac6627d4bd7c5cfc8251/1456778346151/65.jpg?format=1000w);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+#header .first em {
+	color: pink;
+	background-color: grey;
+	font-size: 20px;
+	font-family: gloria-hallelujah,sans-serif;
+}
+#header {
+	text-align: center;
+	font-size: 20px;
+	font-family: gloria-hallelujah,sans-serif;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: gloria-hallelujah,sans-serif;
+}
+#body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.mainNav {
+	text-align: right;
+}
+.mainNav {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: 'Bitter' , 'serif';
+	border-bottom: solid 1px
+}

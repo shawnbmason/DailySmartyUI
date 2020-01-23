@@ -1,0 +1,64 @@
+{
+  "_from": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball",
+  "_id": "node-debug@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-isVqdZTMtNcymwYsgSghSRp3T90Ath8mbEbfarK5G/2AI3x4i7TrkHheLnK87Kc7GihYdtxu2IoF/OAAi/9oOQ==",
+  "_location": "/node-debug",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball",
+  "_shasum": "5693aa24b018efc696e241e51b01ee9daaecf39f",
+  "_spec": "https://www.atom.io/api/packages/node-debug/versions/0.1.7/tarball",
+  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-120016-11840-1hddsib.2k0d",
+  "activationCommands": {
+    "atom-workspace": "node-debug:run"
+  },
+  "author": {
+    "name": "Andi Heinkelein",
+    "email": "andifeind@noname-media.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Andifeind/atom-node-inspector/issues"
+  },
+  "bundleDependencies": false,
+  "debug": "./examples/debug.js",
+  "dependencies": {
+    "biased-opener": "^0.2.8",
+    "superchain": "^0.1.2"
+  },
+  "deprecated": false,
+  "description": "Node.js debugging interface for Atom using node-inspector.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Andifeind/atom-node-inspector#readme",
+  "keywords": [
+    "debugger",
+    "debug",
+    "node-debug",
+    "node-debugger",
+    "node-inspector"
+  ],
+  "license": "MIT",
+  "main": "./lib/node-debug",
+  "name": "node-debug",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andifeind/atom-node-inspector.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.7"
+}

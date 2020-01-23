@@ -1,0 +1,62 @@
+{
+  "_from": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball",
+  "_id": "minimap-pigments@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-1M0VjZXWXOF2xKRf9hcq/bGEO0nY0oK4loEQ8UnQWCbz8E2KipeGIUz7HlBXHfkLstgMyTrhgs2CJNWZ8QWEyA==",
+  "_location": "/minimap-pigments",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball",
+  "_shasum": "fa6abb5dfc73f1e56c1d700e16720eb4655252b3",
+  "_spec": "https://www.atom.io/api/packages/minimap-pigments/versions/0.2.2/tarball",
+  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-119510-15888-18nfmlv.bpc6",
+  "bugs": {
+    "url": "https://github.com/abe33/minimap-pigments/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    },
+    "pigments.api": {
+      "versions": {
+        "1.0.0": "consumePigmentsServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  },
+  "deprecated": false,
+  "description": "An Atom plugin to display pigments colors in the Minimap.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/abe33/minimap-pigments#readme",
+  "keywords": [
+    "minimap",
+    "pigments",
+    "colors",
+    "palette"
+  ],
+  "license": "MIT",
+  "main": "./lib/minimap-pigments",
+  "name": "minimap-pigments",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abe33/minimap-pigments.git"
+  },
+  "version": "0.2.2"
+}

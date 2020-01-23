@@ -1,0 +1,123 @@
+{
+  "_from": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball",
+  "_id": "linter-jscs@4.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-C97gqREmSsME0dTZ9His1U1a/vUExK+JJXjpsE/Wcm4xeKSctg+AKXXs4Bo8GlbfkAZK9NJpg+sssWARGxTWMA==",
+  "_location": "/linter-jscs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball",
+  "_shasum": "a3d14dac030f373cc8f6280968726785a84c83cb",
+  "_spec": "https://www.atom.io/api/packages/linter-jscs/versions/4.2.3/tarball",
+  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-120016-14592-1c27i5y.ygw4",
+  "activationHooks": [
+    "language-babel:grammar-used",
+    "language-html:grammar-used",
+    "language-javascript-jsx:grammar-used",
+    "language-javascript:grammar-used",
+    "language-jsx:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/AtomLinter/linter-jscs/issues"
+  },
+  "bundleDependencies": false,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "atom-linter": "10.0.0",
+    "atom-package-deps": "5.1.0",
+    "globule": "1.3.0",
+    "jscs": "3.0.7",
+    "object-assign": "4.1.1"
+  },
+  "deprecated": false,
+  "description": "Linter plugin for JavaScript, using JSCS",
+  "devDependencies": {
+    "@commitlint/cli": "8.3.4",
+    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/travis-cli": "8.3.4",
+    "@semantic-release/apm-config": "6.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.19.1",
+    "fsmonitor": "0.2.4",
+    "husky": "3.1.0",
+    "jasmine-fix": "1.3.1",
+    "semantic-release": "15.14.0",
+    "temp": "0.9.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "global-require": "off",
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "node": true,
+      "browser": true
+    }
+  },
+  "homepage": "https://github.com/AtomLinter/linter-jscs#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "license": "MIT",
+  "main": "src/linter-jscs",
+  "name": "linter-jscs",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomLinter/linter-jscs.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "tdd": "fsmonitor -d src -s -q apm test",
+    "test": "apm test"
+  },
+  "version": "4.2.3"
+}

@@ -1,0 +1,52 @@
+{
+  "_from": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball",
+  "_id": "lorem@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-6pzUlxeZwiASBphED+m0GjIj9FHSKhvjFPS4BLC4jQvH9f2B4vB20W3pJ8+Ze5pzy9LvPPUeCHFIE3XcIJpypA==",
+  "_location": "/lorem",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball",
+  "_shasum": "c7cfdecefddbfea8312d1c335e3a45641e4caac7",
+  "_spec": "https://www.atom.io/api/packages/lorem/versions/4.0.0/tarball",
+  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-119917-22928-m82dcu.1vgs8",
+  "bugs": {
+    "url": "https://github.com/shillingp/atom-lorem/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Simple lorem ipsum text generator with added functionality",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/shillingp/atom-lorem#readme",
+  "keywords": [
+    "lorem",
+    "lorem-ipsum",
+    "ipsum",
+    "text",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "./lib/lorem",
+  "name": "lorem",
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shillingp/atom-lorem.git"
+  },
+  "version": "4.0.0"
+}

@@ -1,0 +1,60 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
+  "_id": "atom-quokka@1.0.183",
+  "_inBundle": false,
+  "_integrity": "sha512-bngWJQUc8FAnW0bPR41Y70p0aDfkntgceJqRAxGwJP1lvlp6m5lqEUoP5alkXnpw3MVYdUCROotf9MgYBa2M/g==",
+  "_location": "/atom-quokka",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
+  "_shasum": "05f00956c7fdac6913dd6b93b65bf6364ee8351f",
+  "_spec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
+  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-120016-956-2ssy2s.q1lxq",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/atom-quokka/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "statusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "quokka-atom": "1.0.183"
+  },
+  "deprecated": false,
+  "description": "Live Scratchpad for JavaScript",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/wallabyjs/atom-quokka#readme",
+  "keywords": [
+    "wallaby.js",
+    "code coverage",
+    "ES6",
+    "ES7",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "main": "./lib/quokka",
+  "name": "atom-quokka",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wallabyjs/atom-quokka.git"
+  },
+  "version": "1.0.183"
+}
