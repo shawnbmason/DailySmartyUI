@@ -1,0 +1,332 @@
+body {
+  margin: 0px;
+  background-color: #333333;
+}
+
+.header-titles {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  grid-gap: 50px;
+  width: 650px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+}
+
+.dropdown-link a {
+  color: grey;
+  font-size: 25px;
+  padding-left: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.dropdown-link a:hover {
+  color: white;
+}
+
+.dropdown-link a::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f0d7';
+  padding: 15px;
+}
+
+.dropdown-link i:hover {
+  color: white;
+}
+
+.center-colum h2 {
+  color: #cea135;
+  margin-bottom: 10px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+}
+
+.header-titles > .nav-title {
+  padding-right: 30px;
+}
+
+.header-titles > .nav-title a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-titles > .nav-title a:hover {
+  color: #858585;
+}
+
+.first {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  margin: 0px;
+}
+
+.logo img {
+  width: 200px;
+  height: 120px;
+}
+
+.logo img {
+  filter: invert(100%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+
+.center-colum {
+  padding-left: 125px;
+  padding-bottom: 10px;
+}
+
+.right-colum .create button i {
+  color: #11ff8c;
+  padding-left: 15px;
+  font-size: 40px;
+  align-items: center;
+}
+
+.right-colum .search i {
+  font-size: 40px;
+  color: grey;
+  margin: 10px;
+}
+
+.center-colum i {
+  color: grey;
+  padding: 15px;
+}
+
+.right-colum button:hover {
+  color: #858585;
+  cursor: pointer;
+}
+
+ .right-colum button {
+   background-color: #333333;
+   font-weight: 400;
+   font-size: 120%;
+   font-weight: bold;
+   margin: 10px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+ }
+
+ .right-colum > .create button {
+   width: 160px;
+   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .right-colum > .signUp button {
+   width: 140px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .right-colum > .login button {
+   width: 120px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .right-colum {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+ }
+
+.search a i:hover {
+  color: white;
+}
+
+.page-container > .content-wrapper .first-paragraph p {
+  letter-spacing: 1px;
+  line-height: 65px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.page-container {
+  display: flex;
+  justify-content: left;
+  padding: 50px;
+  padding-left: 70px;
+  padding-right: 0px;
+  color: #a8a4a2;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.page-container > .content-wrapper {
+  width: 1000px;
+}
+
+.page-container > .content-wrapper p b {
+  color: white;
+}
+
+.second-paragraph p {
+  letter-spacing: 1px;
+  line-height: 55px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.content-image img {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 550px;
+  box-shadow: 0px 0px 85px 25px rgba(0, 0, 0, 0.48);
+}
+
+
+.content-image {
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 0px;
+  margin-top: 40px;
+}
+
+.content-image p {
+  margin-bottom: 0px;
+}
+
+.content-image p b {
+  line-height: 55px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+  color: white;
+  height: 40px;
+  font-size: 30px;
+  padding-left: 25px;
+}
+
+.page-container-button > .signUpFree button {
+  font-size: 300%;
+  height: 100px;
+  font-weight: 525;
+  width: 475px;
+  background-color: #11ff8c;
+  border: none;
+  border-radius: 5px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+}
+
+.page-container-button > .signUpFree button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+}
+
+.page-container-button > .signUpFree {
+  padding-right: 15px
+}
+
+.page-container-button > .learnMore button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.page-container-button > .learnMore button {
+  height: 100px;
+  width: 325px;
+  font-size: 300%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  line-height: 55px;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+}
+
+.page-container-button {
+  display: flex;
+  align-items: center;
+}
+
+.content-wrapper > .first-paragraph p i {
+  color: #cea135;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding-bottom: 100px;
+}
+
+footer .team button {
+  width: 475px;
+  height: 80px;
+}
+
+footer .education button {
+  width: 475px;
+  height: 80px;
+}
+
+footer .privacy button {
+  width: 475px;
+  height: 80px;
+}
+
+footer .writing button {
+  width: 475px;
+  height: 80px;
+}
+
+footer button:hover {
+  cursor: pointer;
+}
+
+footer button {
+  background-color: #333333;
+  border-color: #a8a4a2;
+  color: white;
+  font-family: quicksand,sans-serif;
+  font-style: normal;
+  font-size: 150%;
+}
+
+footer .team #team_text {
+  font-size: 2.5rem;
+}
+
+footer .education #education_text {
+  font-size: 2.5rem;
+}
+
+footer .privacy #privacy_text {
+  font-size: 2.5rem;
+}
+
+footer .writing #writing_text {
+  font-size: 2.5rem;
+}
+
+.content-image #CodePen_Projects_text {
+  color: #2fd5ff;
+}

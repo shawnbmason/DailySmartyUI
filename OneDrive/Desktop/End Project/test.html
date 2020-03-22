@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Error Management in JavaScript</title>
+  </head>
+  <body>
+    <h1>Hello wolrd</h1>
+  </body>
+
+  <script>
+    class DevcampError extends Error {
+      constructor(msg = 'An error occurred', ...params) {
+        super(...params);
+
+        this.msg = msg;
+      }
+    }
+
+    function siteComponent(func) {
+      return func();
+    }
+
+    try {
+      console.log(siteComponent('oops'));
+    } catch (e) {
+      throw new DevcampError('DevcampError', 'My custom error message');
+    }
+
+    widget = () => {
+      return '<div>Hi there</div>';
+    };
+
+    let sum = [2, 2, 2].reduce(function (accumulator, currentValue) {
+  return accumulator * currentValue
+}, 1)
+
+console.log(sum); 
+
+const toThePowerOf = (num, exp) => {
+    const items = Array(exp).fill(num);
+    const reducer = (total, currentValue) => total * currentValue;
+    return items.reduce(reducer);
+  };
+
+toThePowerOf(2, 3);
+
+// note: Array(3).fill(2); == [2, 2, 2]
+  </script>
+</html>

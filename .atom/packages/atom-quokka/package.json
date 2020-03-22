@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
-  "_id": "atom-quokka@1.0.183",
+  "_from": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball",
+  "_id": "atom-quokka@1.0.190",
   "_inBundle": false,
-  "_integrity": "sha512-bngWJQUc8FAnW0bPR41Y70p0aDfkntgceJqRAxGwJP1lvlp6m5lqEUoP5alkXnpw3MVYdUCROotf9MgYBa2M/g==",
+  "_integrity": "sha512-CAGgQzw3jM7TEPX/xllV/ogPc4ze8Tsl/j5vWdKbEdZEaQ1OK1X3JqUtYrQMW0hzWCa2Qz9svIURrpo0gItrfw==",
   "_location": "/atom-quokka",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball"
+    "raw": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
-  "_shasum": "05f00956c7fdac6913dd6b93b65bf6364ee8351f",
-  "_spec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.183/tarball",
-  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-120016-956-2ssy2s.q1lxq",
+  "_resolved": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball",
+  "_shasum": "c848e1156161b1eadd62cfe93236085b7d20e136",
+  "_spec": "https://www.atom.io/api/packages/atom-quokka/versions/1.0.190/tarball",
+  "_where": "C:\\Users\\smaso\\AppData\\Local\\Temp\\apm-install-dir-12028-9120-1ymgh2l.29ft",
   "bugs": {
     "url": "https://github.com/wallabyjs/atom-quokka/issues"
   },
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.0.5",
-    "quokka-atom": "1.0.183"
+    "quokka-atom": "1.0.190"
   },
   "deprecated": false,
   "description": "Live Scratchpad for JavaScript",
@@ -56,5 +56,5 @@
     "type": "git",
     "url": "git+ssh://git@github.com/wallabyjs/atom-quokka.git"
   },
-  "version": "1.0.183"
+  "version": "1.0.190"
 }
